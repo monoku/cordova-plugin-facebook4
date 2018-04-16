@@ -147,12 +147,12 @@
         </config-file>
 
         <!-- Bolts framework -->
-        <framework src="src/ios/Bolts.framework" custom="true" />
+        <framework src="Bolts" type="podspec" spec="~> 1.9.0" />
 
         <!-- Facebook framework -->
-        <framework src="FBSDKCoreKit" type="podspec" spec="~> 4.32" />
-        <framework src="FBSDKLoginKit" type="podspec" spec="~> 4.32" />
-        <framework src="FBSDKShareKit" type="podspec" spec="~> 4.32" />
+        <framework src="FBSDKCoreKit" type="podspec" spec="~> 4.32.0" />
+        <framework src="FBSDKLoginKit" type="podspec" spec="~> 4.32.0" />
+        <framework src="FBSDKShareKit" type="podspec" spec="~> 4.32.0" />
     </platform>
 
     <!-- browser -->
